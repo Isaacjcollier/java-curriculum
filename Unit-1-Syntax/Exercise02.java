@@ -22,7 +22,15 @@ You'll have to:
 
 public class Exercise02 {
 
-  // write your method here
+  public int sumArray(int[] argument) {
+    int i = 0;
+    int sum = 0;
+    while (i < argument.length) {
+      sum += argument[i];
+      i++;
+    }
+    return sum;
+  }
 
   public static void main(String[] args) {
     Exercise02 instance = new Exercise02();
